@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clipboard | jquery</title>
+
+  <!-- google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- own styles -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>copy to clipboard</h1>
+    <textarea name="" id="textfield" cols="30" rows="10" class="text-field">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur sit deserunt saepe dolores tempora aliquam necessitatibus, soluta fuga delectus distinctio perferendis quibusdam at dicta atque molestiae quasi? Iusto, veritatis!
+    </textarea>
+    <button class="copy-btn">copy
+      <ion-icon name="copy"></ion-icon>
+    </button>
+    <span class="copied">copied!</span>
+  </div>
+  <!-- js -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- jsquery cdn -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- own scripts -->
+<script src="main.js"></script>
+
+</body>
+</html>
